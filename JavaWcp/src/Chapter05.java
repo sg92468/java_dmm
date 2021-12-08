@@ -1,7 +1,7 @@
 
 public class Chapter05 {
 	public static void main(String[] args) {
-		long lon = 123;
+		long lon = 123L;
 		double dou = 1.23;
 		boolean bool = true;
 		System.out.println(lon);

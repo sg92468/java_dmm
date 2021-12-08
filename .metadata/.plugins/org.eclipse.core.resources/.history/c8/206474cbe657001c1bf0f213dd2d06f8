@@ -1,0 +1,26 @@
+
+public class Chapter07 {
+	public static void main(String[] args) {
+		int i = 2;
+		if (i <= 5) {
+			System.out.println("とても近いです");
+		} else if (i <= 10) {
+			System.out.println("近いです");
+		} else if (i <= 15) {
+			System.out.println("遠いです");
+		} else {
+			System.out.println("とても遠いです");
+		}
+		String color = "blue";
+		switch(color) {
+			case "red":
+				System.out.println("赤信号です");
+			case "yellow":
+				System.out.println("黄信号です");
+			case "blue":
+				System.out.println("青信号です");
+			default:
+				System.out.println("信号の色ではありません");
+		}
+	}
+}
